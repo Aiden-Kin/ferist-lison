@@ -57,5 +57,14 @@
     <ClCompile Include="数位拆分.c">
       <Filter>源文件\作业</Filter>
     </ClCompile>
+    <ClCompile Include="分段函数.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="分段函数2.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="分段函数3.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

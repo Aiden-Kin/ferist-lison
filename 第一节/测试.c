@@ -1,12 +1,17 @@
-#include <stdio.h>
+#include "stdio.h"
 
 int main()
-#define PI 3.14159
-#define r 5.3
-{
-	int a = "hello";
-	printf (" %s ", a);
 
-	return 0;
+{
+
+    int n;
+
+    scanf("%d", &n);
+
+    if (n++ < 5)printf("%x\n", n);
+
+    else printf("%x\n", n--);
+
+    return 0;
 
 }
