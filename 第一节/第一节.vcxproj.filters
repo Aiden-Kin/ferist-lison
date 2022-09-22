@@ -22,6 +22,12 @@
     <Filter Include="源文件\作业">
       <UniqueIdentifier>{97a773a0-46fc-4a0c-ac8a-d2dd64a8d571}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\作业\第二次作业">
+      <UniqueIdentifier>{97032264-e9a8-43a6-a306-a4b9d5d80c5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\作业\第一次作业">
+      <UniqueIdentifier>{4811664e-2a2d-4820-80e6-5f42265e5695}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="源.c">
@@ -42,29 +48,44 @@
     <ClCompile Include="1.c">
       <Filter>源文件\算法</Filter>
     </ClCompile>
-    <ClCompile Include="圆弧半径.c">
-      <Filter>源文件\作业</Filter>
-    </ClCompile>
-    <ClCompile Include="计算两数平方和.c">
-      <Filter>源文件\作业</Filter>
-    </ClCompile>
-    <ClCompile Include="逆序.c">
-      <Filter>源文件\作业</Filter>
-    </ClCompile>
-    <ClCompile Include="逆序数的拆分计算.c">
-      <Filter>源文件\作业</Filter>
-    </ClCompile>
-    <ClCompile Include="数位拆分.c">
-      <Filter>源文件\作业</Filter>
-    </ClCompile>
     <ClCompile Include="分段函数.c">
-      <Filter>源文件\作业</Filter>
+      <Filter>源文件\作业\第二次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="出租车计价.c">
+      <Filter>源文件\作业\第二次作业</Filter>
     </ClCompile>
     <ClCompile Include="分段函数2.c">
-      <Filter>源文件\作业</Filter>
+      <Filter>源文件\作业\第二次作业</Filter>
     </ClCompile>
     <ClCompile Include="分段函数3.c">
-      <Filter>源文件\作业</Filter>
+      <Filter>源文件\作业\第二次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="闰年判断.c">
+      <Filter>源文件\作业\第二次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="字符类型判断.c">
+      <Filter>源文件\作业\第二次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="计算两数平方和.c">
+      <Filter>源文件\作业\第一次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="逆序.c">
+      <Filter>源文件\作业\第一次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="逆序数的拆分计算.c">
+      <Filter>源文件\作业\第一次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="数位拆分.c">
+      <Filter>源文件\作业\第一次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="数位拆分v2.c">
+      <Filter>源文件\作业\第一次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="圆弧半径.c">
+      <Filter>源文件\作业\第一次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="一元二次方程的跟.c">
+      <Filter>源文件\作业\第二次作业</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
