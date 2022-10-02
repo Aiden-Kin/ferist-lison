@@ -1,16 +1,16 @@
-#include "stdio.h"
+#include <stdio.h>
+#include <math.h>
 
 int main()
 
 {
+    int  i;
 
-    int n;
+    for (i = 1; i + 1; i++)
 
-    scanf("%d", &n);
+        if (i > 4) { printf("%d", i++); break; }
 
-    if (n++ < 5)printf("%x\n", n);
-
-    else printf("%x\n", n--);
+    printf("%d", i++);
 
     return 0;
 

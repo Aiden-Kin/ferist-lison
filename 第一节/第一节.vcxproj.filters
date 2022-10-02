@@ -28,6 +28,9 @@
     <Filter Include="源文件\作业\第一次作业">
       <UniqueIdentifier>{4811664e-2a2d-4820-80e6-5f42265e5695}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\作业\第三次作业">
+      <UniqueIdentifier>{f53ac487-cea3-46a1-bb5d-2ef0f61cce03}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="源.c">
@@ -78,14 +81,48 @@
     <ClCompile Include="数位拆分.c">
       <Filter>源文件\作业\第一次作业</Filter>
     </ClCompile>
-    <ClCompile Include="数位拆分v2.c">
-      <Filter>源文件\作业\第一次作业</Filter>
-    </ClCompile>
     <ClCompile Include="圆弧半径.c">
       <Filter>源文件\作业\第一次作业</Filter>
     </ClCompile>
     <ClCompile Include="一元二次方程的跟.c">
       <Filter>源文件\作业\第二次作业</Filter>
     </ClCompile>
+    <ClCompile Include="数位拆分v2.c">
+      <Filter>源文件\作业\第二次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="3-Pi的值2.c">
+      <Filter>源文件\作业\第三次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="3-Fibonacci 常数.c">
+      <Filter>源文件\作业\第三次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="3-pi的值1.c">
+      <Filter>源文件\作业\第三次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="3-最大公约数.c">
+      <Filter>源文件\作业\第三次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="3-整数各数字平方和.c">
+      <Filter>源文件\作业\第三次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="3-学生成绩.c">
+      <Filter>源文件\作业\第三次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="3-回旋相加.c">
+      <Filter>源文件\作业\第三次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="3-求s值.c">
+      <Filter>源文件\作业\第三次作业</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="第一节.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>
