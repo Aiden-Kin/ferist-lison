@@ -1,37 +1,50 @@
-﻿#include "stdio.h"   
+﻿#include<stdio.h>
 
-void main()
+#include<math.h>
 
-{
+int main() {
+    int n = 0, a[20];
+    for (int i = 0; i < 10; i++) {
+        scanf("%d", &a[i]);
+        int isP = 1;
+        if (a[i] >= 4) {
+            for (int j = 2; j <= sqrt(a[i]); j++) {
+                if (a[i] % j == 0) {
+                    isP = 0;
+                    break;
+                }
+            }
+        }
+        else if (a[i] == 1)
+            isP = 0;
+        if (isP) {
+            a[n] = a[i];
+            n++;
+        }
+    }
 
-    int x[50], y, n, i, j;
+    for (int i = 0; i < n - 1; i++) {
 
-    printf("请输入数组元素的个数：");
+        for (int j = i + 1; j < n; j++) {
 
-    scanf("%d", &n);
+            if (a[i] > a[j]) {
 
-    printf("输入%d个从大到小排好顺序的整数\n", n);
+                int temp = a[i];
 
-    for (i = 0; i < n; i++)
+                a[i] = a[j];
 
-        scanf("%d", &x[i]);
+                a[j] = temp;
 
-    printf("请输入一个待插入的整数： ");
+            }
 
-    scanf("%d", &y);
+        }
 
-    for (i = n-1; i >= 0; i--)
+    }
 
-        if (y > x[i])       x[i+1]=x[i];  //i 是当前比较数组
+    for (int i = 0; i < n; i++)
 
-        else break;
+        printf("%5d", a[i]);
 
-    x[i+1]=y;       //插入后一个数组中
-
-    for (i = 0; i < n + 1; i++)
-
-        printf("%4d", x[i]);
-
-    printf("\n");
+    return 0;
 
 }

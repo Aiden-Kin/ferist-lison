@@ -162,7 +162,7 @@
     <ClCompile Include="5-求和前三.cpp">
       <Filter>源文件\作业\第五次作业</Filter>
     </ClCompile>
-    <ClCompile Include="5-求素数并排序.cpp">
+    <ClCompile Include="5-求素数并从小到大排序.cpp">
       <Filter>源文件\作业\第五次作业</Filter>
     </ClCompile>
     <ClCompile Include="数组素数算法.cpp">

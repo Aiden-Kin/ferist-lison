@@ -3,20 +3,23 @@
 
 int main()
 {
-	int a[10], i,b[10]{0},bcont;
+	int a[10], i, b[10]{0}, bcont;
 
 	int prime(int a[], int b[]);
+	void stbsoet(int a[], int n);
 
-	for (i = 0; i < 10; i++)
+	for (i = 0; i < 10; i++)   
 	{
 		scanf("%d", &a[i]);
 	}
 
-	bcont = prime(a, b);
+	bcont = prime(a, b);		//将a数组中素数判断并放入b  ；b为素数组
 
-	for (bcont = 0; i < bcont; bcont++)
+	stbsoet(b, bcont);			//排序
+
+	for (i = 0; i < bcont; i++)
 	{
-		printf("%5d", b[bcont]);
+		printf("%5d", b[i]);
 	}
 
 
@@ -30,7 +33,7 @@ int prime(int a[], int b[])		// 素数函数，a[]为传入数列 b[]为传出素数数列
 
 	for (i = 0; i < 10; i++)			//10 为a[]数组的个数
 	{
-		if (a[i] == 1 || a[i] == 3)
+		if (a[i] == 2 || a[i] == 3)
 		{
 			b[bcont] = a[i];
 
@@ -41,7 +44,7 @@ int prime(int a[], int b[])		// 素数函数，a[]为传入数列 b[]为传出素数数列
 
 		m = 0;
 
-		if (a[i] % 2 == 0)
+		if (a[i] % 2 == 0|| a[i] == 1)
 		{
 			m = 1;
 		}
@@ -64,3 +67,26 @@ int prime(int a[], int b[])		// 素数函数，a[]为传入数列 b[]为传出素数数列
 	return bcont;
 
 }
+
+void stbsoet(int a[], int n)  //n为数组位数
+{
+	int i, j, t;
+
+	for (i = 0; i < n - 1; i++)
+	{
+		for (j = i + 1; j < n; j++)
+		{
+			if (a[i] > a[j])
+			{
+				t = a[i];
+
+				a[i] = a[j];
+
+				a[j] = t;
+			}
+		}
+
+	}
+
+}
+
