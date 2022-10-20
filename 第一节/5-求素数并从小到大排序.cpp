@@ -48,7 +48,7 @@ int prime(int a[], int b[])		// 素数函数，a[]为传入数列 b[]为传出素数数列
 		{
 			m = 1;
 		}
-		for (j = 3; j < a[i]; j += 2)
+		for (j = 3; j < a[i]/2; j += 2)
 			if (a[i] % j == 0)
 			{
 				m = 1;
