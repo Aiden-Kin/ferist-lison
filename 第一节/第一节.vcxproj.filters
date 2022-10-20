@@ -25,11 +25,17 @@
     <Filter Include="源文件\作业\第二次作业">
       <UniqueIdentifier>{97032264-e9a8-43a6-a306-a4b9d5d80c5c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\作业\第一次作业">
-      <UniqueIdentifier>{4811664e-2a2d-4820-80e6-5f42265e5695}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\作业\第三次作业">
       <UniqueIdentifier>{f53ac487-cea3-46a1-bb5d-2ef0f61cce03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\作业\第四次作业">
+      <UniqueIdentifier>{4b66c68a-0b5c-40a9-bccd-9e83572778df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\作业\第五次作业">
+      <UniqueIdentifier>{feff2d2f-a570-4a50-adf7-b1a772ee02e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\作业\第一次作业">
+      <UniqueIdentifier>{4811664e-2a2d-4820-80e6-5f42265e5695}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -47,9 +53,6 @@
     </ClCompile>
     <ClCompile Include="..\..\..\..\Tencent Files\2316664125\FileRecv\MobileFile\midi.cpp">
       <Filter>源文件\杂项</Filter>
-    </ClCompile>
-    <ClCompile Include="1.c">
-      <Filter>源文件\算法</Filter>
     </ClCompile>
     <ClCompile Include="分段函数.c">
       <Filter>源文件\作业\第二次作业</Filter>
@@ -113,6 +116,60 @@
     </ClCompile>
     <ClCompile Include="3-求s值.c">
       <Filter>源文件\作业\第三次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="4-计算心跳数.c">
+      <Filter>源文件\作业\第四次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="4-计算闰年.c">
+      <Filter>源文件\作业\第四次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="4-数学大师马克思.c">
+      <Filter>源文件\作业\第四次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="4-判断整形几位v2.0.c">
+      <Filter>源文件\作业\第四次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="4-判断整形数据几位v1.0.c">
+      <Filter>源文件\作业\第四次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="4-检测输入数据中奇数和偶数的个数.c">
+      <Filter>源文件\作业\第四次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="4-6位密码输入检测.c">
+      <Filter>源文件\作业\第四次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="4-猴子吃桃程序v1.0.c">
+      <Filter>源文件\作业\第四次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="4-猴子吃桃程序v2.0.c">
+      <Filter>源文件\作业\第四次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="4-计算反弹高度.c">
+      <Filter>源文件\作业\第四次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="5-排序算法.cpp">
+      <Filter>源文件\作业\第五次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="5-最大值和最小值.cpp">
+      <Filter>源文件\作业\第五次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="5-素数平均值.cpp">
+      <Filter>源文件\作业\第五次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="5-逆序排列.cpp">
+      <Filter>源文件\作业\第五次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="5-求和前三.cpp">
+      <Filter>源文件\作业\第五次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="5-求素数并排序.cpp">
+      <Filter>源文件\作业\第五次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="数组素数算法.cpp">
+      <Filter>源文件\算法</Filter>
+    </ClCompile>
+    <ClCompile Include="数组小到大排序算法.cpp">
+      <Filter>源文件\算法</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
