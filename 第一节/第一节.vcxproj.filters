@@ -25,9 +25,6 @@
     <Filter Include="源文件\作业\第二次作业">
       <UniqueIdentifier>{97032264-e9a8-43a6-a306-a4b9d5d80c5c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\作业\第三次作业">
-      <UniqueIdentifier>{f53ac487-cea3-46a1-bb5d-2ef0f61cce03}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\作业\第四次作业">
       <UniqueIdentifier>{4b66c68a-0b5c-40a9-bccd-9e83572778df}</UniqueIdentifier>
     </Filter>
@@ -36,6 +33,15 @@
     </Filter>
     <Filter Include="源文件\作业\第一次作业">
       <UniqueIdentifier>{4811664e-2a2d-4820-80e6-5f42265e5695}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\作业\第七次作业">
+      <UniqueIdentifier>{e1b7ca43-d47e-4109-acbe-d9b287f9c5e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\作业\第八次作业">
+      <UniqueIdentifier>{e629c44c-8dc5-4e6e-987c-52e34729fe20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\作业\第七次作业\第三次作业">
+      <UniqueIdentifier>{f53ac487-cea3-46a1-bb5d-2ef0f61cce03}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -94,28 +100,28 @@
       <Filter>源文件\作业\第二次作业</Filter>
     </ClCompile>
     <ClCompile Include="3-Pi的值2.c">
-      <Filter>源文件\作业\第三次作业</Filter>
+      <Filter>源文件\作业\第七次作业\第三次作业</Filter>
     </ClCompile>
     <ClCompile Include="3-Fibonacci 常数.c">
-      <Filter>源文件\作业\第三次作业</Filter>
+      <Filter>源文件\作业\第七次作业\第三次作业</Filter>
     </ClCompile>
     <ClCompile Include="3-pi的值1.c">
-      <Filter>源文件\作业\第三次作业</Filter>
+      <Filter>源文件\作业\第七次作业\第三次作业</Filter>
     </ClCompile>
     <ClCompile Include="3-最大公约数.c">
-      <Filter>源文件\作业\第三次作业</Filter>
+      <Filter>源文件\作业\第七次作业\第三次作业</Filter>
     </ClCompile>
     <ClCompile Include="3-整数各数字平方和.c">
-      <Filter>源文件\作业\第三次作业</Filter>
+      <Filter>源文件\作业\第七次作业\第三次作业</Filter>
     </ClCompile>
     <ClCompile Include="3-学生成绩.c">
-      <Filter>源文件\作业\第三次作业</Filter>
+      <Filter>源文件\作业\第七次作业\第三次作业</Filter>
     </ClCompile>
     <ClCompile Include="3-回旋相加.c">
-      <Filter>源文件\作业\第三次作业</Filter>
+      <Filter>源文件\作业\第七次作业\第三次作业</Filter>
     </ClCompile>
     <ClCompile Include="3-求s值.c">
-      <Filter>源文件\作业\第三次作业</Filter>
+      <Filter>源文件\作业\第七次作业\第三次作业</Filter>
     </ClCompile>
     <ClCompile Include="4-计算心跳数.c">
       <Filter>源文件\作业\第四次作业</Filter>
@@ -170,6 +176,45 @@
     </ClCompile>
     <ClCompile Include="数组小到大排序算法.cpp">
       <Filter>源文件\算法</Filter>
+    </ClCompile>
+    <ClCompile Include="7-从小到大的顺序.cpp">
+      <Filter>源文件\作业\第七次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="7-填充方阵.cpp">
+      <Filter>源文件\作业\第七次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="7-杨辉三角（反）.cpp">
+      <Filter>源文件\作业\第七次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="7-杨辉三角.cpp">
+      <Filter>源文件\作业\第七次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="7-周边元素累加和.cpp">
+      <Filter>源文件\作业\第七次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="7-坐下三角元素和.cpp">
+      <Filter>源文件\作业\第七次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="7-3×4数组.cpp">
+      <Filter>源文件\作业\第七次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="7-5×5数组中主对角线元素.cpp">
+      <Filter>源文件\作业\第七次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="8-大小写交换.c">
+      <Filter>源文件\作业\第八次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="8-删除偶数字符.c">
+      <Filter>源文件\作业\第八次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="8-字符排序.c">
+      <Filter>源文件\作业\第八次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="8-数字替换.c">
+      <Filter>源文件\作业\第八次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="8-字符正反连接.c">
+      <Filter>源文件\作业\第八次作业</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
