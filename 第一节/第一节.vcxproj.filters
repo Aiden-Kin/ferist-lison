@@ -43,6 +43,9 @@
     <Filter Include="源文件\作业\第七次作业\第三次作业">
       <UniqueIdentifier>{f53ac487-cea3-46a1-bb5d-2ef0f61cce03}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\作业\第九次作业">
+      <UniqueIdentifier>{511213c0-07a2-4ffb-aac2-9621b5227592}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="源.c">
@@ -215,6 +218,30 @@
     </ClCompile>
     <ClCompile Include="8-字符正反连接.c">
       <Filter>源文件\作业\第八次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="9-计算函数1.c">
+      <Filter>源文件\作业\第九次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="9-计算函数2.c">
+      <Filter>源文件\作业\第九次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="9-数列前十项.c">
+      <Filter>源文件\作业\第九次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="9-fibonachi数列个数.c">
+      <Filter>源文件\作业\第九次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="9-13输出因子之和.c">
+      <Filter>源文件\作业\第九次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="9-函数重复计算.c">
+      <Filter>源文件\作业\第九次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="9-判断素数关系.c">
+      <Filter>源文件\作业\第九次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="9-14同构数函数.c">
+      <Filter>源文件\作业\第九次作业</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

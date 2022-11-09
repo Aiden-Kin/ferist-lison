@@ -1,11 +1,9 @@
 #include <stdio.h>
-#include <string.h>
 #include <math.h>
 
 int main()		
 {
-	char s[100];
-	int i, j;
+	int a, n;
 	
 	return 0;
 }
