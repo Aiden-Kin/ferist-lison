@@ -219,25 +219,25 @@
     <ClCompile Include="8-字符正反连接.c">
       <Filter>源文件\作业\第八次作业</Filter>
     </ClCompile>
-    <ClCompile Include="9-计算函数1.c">
+    <ClCompile Include="9-9计算函数1.c">
       <Filter>源文件\作业\第九次作业</Filter>
     </ClCompile>
-    <ClCompile Include="9-计算函数2.c">
+    <ClCompile Include="9-10计算函数2.c">
       <Filter>源文件\作业\第九次作业</Filter>
     </ClCompile>
-    <ClCompile Include="9-数列前十项.c">
+    <ClCompile Include="9-11数列前十项.c">
       <Filter>源文件\作业\第九次作业</Filter>
     </ClCompile>
-    <ClCompile Include="9-fibonachi数列个数.c">
+    <ClCompile Include="9-12fibonachi数列个数.c">
       <Filter>源文件\作业\第九次作业</Filter>
     </ClCompile>
     <ClCompile Include="9-13输出因子之和.c">
       <Filter>源文件\作业\第九次作业</Filter>
     </ClCompile>
-    <ClCompile Include="9-函数重复计算.c">
+    <ClCompile Include="9-15函数重复计算.c">
       <Filter>源文件\作业\第九次作业</Filter>
     </ClCompile>
-    <ClCompile Include="9-判断素数关系.c">
+    <ClCompile Include="9-16判断素数关系.c">
       <Filter>源文件\作业\第九次作业</Filter>
     </ClCompile>
     <ClCompile Include="9-14同构数函数.c">

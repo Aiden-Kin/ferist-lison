@@ -29,7 +29,7 @@ int fun(int n)
 		n1=n1 / 10;
 	}
 	
-	a = pow(10, count);
+	a = pow(10, count);			//保留相应位数，直接if比较是否相等
 
 	t = sq % a;
 

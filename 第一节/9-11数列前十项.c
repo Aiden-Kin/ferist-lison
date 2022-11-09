@@ -18,10 +18,10 @@ double fun(int n)
 {
 	float s;
 
-	if (n == 1 )
+	if (n == 1 )		//当为1的时候返回1
 		return 1;
 	
-	s = 1.0 / (1 + fun(n - 1));
+	s = 1.0 / (1 + fun(n - 1));		//函数递归
 
 	return s;
 

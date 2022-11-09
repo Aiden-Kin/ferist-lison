@@ -21,7 +21,7 @@ int fun(int n)
 {
 	int i, s=0;
 
-	for (i=1;i <=n; i++)
+	for (i=1;i <=n; i++)		//判断能否被整除检查因数
 	{
 		if (n % i == 0)
 		{
