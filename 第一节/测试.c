@@ -10,8 +10,10 @@ double fun(double n)
 		j = 1.0 / m;
 		t++;
 	}
-	return s;
-}
+
+max_value(m, n, array)
+
+int m, n, 【2】;
 
 int main()
 {
